@@ -1,0 +1,91 @@
+.header{
+    position: relative;
+    text-align: center;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+    background-color: rgb(23,162,185);
+    color:#ffffff;
+    border-radius: 0 0 5px 5px;
+    padding: 60px;
+    margin-bottom: 60px;
+}
+
+.title{
+    color: red;
+}
+
+.form-row{
+    width: 100%;
+    padding-left: 10%;
+}
+
+.form-group{
+    width: 45%;
+    padding-left: 40px;
+}
+
+label{
+    color: green;
+}
+
+#nbr1, #nbr2{
+    border: 1px solid green;
+}
+
+.btn{
+    margin-left: 13%;
+}
+
+.result{
+    position: relative;
+    top:30px;
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+#resultNumberTitle{
+    color: green;
+    font-size: 40px;
+}
+
+#resultNumber{
+    padding: 10px;
+    border-radius: 5px;
+}
+
+textarea{
+    width: 100%;
+    border: 1px solid darkgrey;
+}
+
+@media screen and (max-width: 900px) {
+    .form-row{
+        text-align: left;
+        width: 100%;
+        padding: 10px;
+        display: block;
+    }
+
+    .form-group{
+        width: 100%;
+        padding: 0px;
+    }
+
+    #nbr1, #nbr2{
+        border: 1px solid green;
+    }
+
+    .result{
+        width: 100%;
+    }
+
+    .btn{
+        margin: 5px;
+    }
+
+    #resultNumberTitle{
+        margin: 5px;
+    }
+}
